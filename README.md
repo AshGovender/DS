@@ -105,7 +105,7 @@ Dimensional reduction(feature addition), data imputation and cleaning(removing n
 <br />
 <br />
 
-# [Project 4: Customer Quality Complaints NPL Model ](https://github.com/TheProcessBoy/Customer-Quality)
+# [Project 4: Customer Quality Complaints NLP Model ](https://github.com/TheProcessBoy/Customer-Quality)
 
 ![](/assets/img/NLP.png)
 
@@ -113,7 +113,7 @@ Dimensional reduction(feature addition), data imputation and cleaning(removing n
 Company X had issues with classifying their customer complaints into specific groupings on a manual basis. Grouping would help them identify problematic issues that they should focus their efforts on resolving. Although the team had worked to create a comprehensive labelled dataset, this was becoming a laborious task to re-label new data from the call centre.
 
 ## Task/Action
-My task was to develop a NPL model(Multi-class text classification) to identify what customer complaints descriptions correlate to which customer issue. The text was first cleaned and tokenized before being converted to numerical values for classification. The conversion to numerical values was done using the TF-IDF Vectorizer. The data was split into a training, test and validation set before fitting various models (random forest, SVM, decision trees, Naive Bayes. The model were then tuned using the GridsearchCV method and the LeaveOneOut() cross validation method. Each models accuracy was calculated and remaining F1, Precision and accuracy scores were calculated for the best performing models using a classfication report. A correlation matrix was also done.
+My task was to develop a NLP model(Multi-class text classification) to identify what customer complaints descriptions correlate to which customer issue. The text was first cleaned and tokenized before being converted to numerical values for classification. The conversion to numerical values was done using the TF-IDF Vectorizer. The data was split into a training, test and validation set before fitting various models (random forest, SVM, decision trees, Naive Bayes. The model were then tuned using the GridsearchCV method and the LeaveOneOut() cross validation method. Each models accuracy was calculated and remaining F1, Precision and accuracy scores were calculated for the best performing models using a classfication report. A correlation matrix was also done.
 
 ## Data sources
 Utilized customer complaints data quality data from the call centre
@@ -132,7 +132,7 @@ Text preparation (conversion to lower case, removing stop words, removing whites
 <br />
 <br />
 
-# [Project 5: Stroke Prediction Using a Binary Classification Model ](https://github.com/TheProcessBoy/Customer-Quality)
+# [Project 5: Stroke Prediction Using a Binary Classification Model ](https://github.com/TheProcessBoy/Stroke-Prediction)
 
 ![](/assets/img/ML.PNG)
 
