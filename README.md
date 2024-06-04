@@ -157,5 +157,40 @@ Text cleaning, SMOTE analysis, training and test split, model tuning, model fitt
 <br />
 <br />
 
+# [Project 6: IoT Medical Diagnostic System ]
 
+![](/assets/img/IoT.PNG)
 
+## Problem Statement
+Remote monitoring and diagnosis of patients can help save lives, yet it is a growing field that needs improvements and advancements.
+
+## Task/Action
+As part of my Masters in biomechatronics, I developed an smart diagnostic system centred around the IoT framework. The following was done:
+
+> * A wireless body access network was developed using an Arduino Nano microcontroller with connections to several sensors measuring phsyiological properties like temperature, pulse rate and EMG
+> * A mobile device served as the middleware layer
+> * Microsoft azure served as the cloud layer with connections to SQL and noSQL databases
+> * A mobile and web application was developed as the application layers with 2 interfaces for the patient and doctors utilizing the applications
+> * A fuzzy logic model was developed and hosted on the MA to guage the patients general health
+> * A ML model was developed on MS Azure and consumed via the mobile application
+
+## Results 
+The research was successful and proved the concept. I was awarded a masters degree and awarded a prize for my innovative design in the mediventors consortium held at the UCT academic hospital.  
+
+Below show images displaying some critical screens within the MA:
+
+![](/assets/img/MA.PNG)
+
+Below shows images showing critical screens in the WA:
+
+![](/assets/img/Web.PNG)
+
+## Software
+* MS Azure for the cloud layer development
+* C on Codevision AVR for the Arduino microcontroller programming
+* Java on android studio for the MA development
+* Javascript, Node.js, html for the web application development
+* SQL for the databases 
+* Visual code editor
+* Balsamiq wireframes for wireframe diagrams
+* Visio for drawings, UML diagrams etc.
