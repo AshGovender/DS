@@ -157,7 +157,7 @@ Text cleaning, SMOTE analysis, training and test split, model tuning, model fitt
 <br />
 <br />
 
-# [Project 6: IoT Medical Diagnostic System ]
+# Project 6: IoT Medical Diagnostic System 
 
 ![](/assets/img/IoT.PNG)
 
