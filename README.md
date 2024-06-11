@@ -216,6 +216,7 @@ Developed a comprehensive PowerBI dashboard to allow management to track data re
 * Creating and formatting visualizations (line charts, bar charts, KPI's etc.)
 * Using slicers and filters to change views
 * Bookmarks and buttons for different views
+* Using selection pane to overlay graphs and dynamically switch between using bookmarks and buttons
 
 ## Results 
 A comprehensive dashboard that could be used by managers to monitor the high level status of cycle times in the plant
@@ -241,6 +242,7 @@ Developed a comprehensive PowerBI dashboard to allow management to track mainten
 * Creating and formatting visualizations (line charts, bar charts, KPI's etc.)
 * Using slicers and filters to change views
 * Bookmarks and buttons for different views
+* Using selection pane to overlay graphs and dynamically switch between using bookmarks and buttons
 
 ## Results 
 A comprehensive dashboard that could be used by managers to monitor the high level status of maintenance job card activity.
