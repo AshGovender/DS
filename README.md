@@ -198,12 +198,12 @@ Below shows images showing critical screens in the WA:
 <br />
 <br />
 
-# Project 7: PowerBi Cycle Time Report
+# Project 7: PowerBi Cycle Time Dashboard
 
 ![](/assets/img/PBI1.PNG)
 
 ## Problem Statement
-Remote monitoring and diagnosis of patients can help save lives, yet it is a growing field that needs improvements and advancements.
+Cycle time monitoring was required by the Mobeni plant to identify how cycle times performed on a high level (section, stream, average etc.)
 
 ## Task/Action
 Developed a comprehensive PowerBI dashboard to allow management to track data regarding cycle time. The following was done:
@@ -211,6 +211,7 @@ Developed a comprehensive PowerBI dashboard to allow management to track data re
 * Uploading data from different data sources
 * Transforming data (renaming columns, creating new calculated columns, deleting columns, change column data types etc.) and loading data
 * Creating relationships between different tables using primary and foreign keys
+* M Formulas for Powerquery Editing (transform phase)
 * Dax formulas for calculated columns (logical and aggregative functions)
 * Creating and formatting visualizations (line charts, bar charts, KPI's etc.)
 * Using slicers and filters to change views
@@ -218,3 +219,28 @@ Developed a comprehensive PowerBI dashboard to allow management to track data re
 
 ## Results 
 A comprehensive dashboard that could be used by managers to monitor the high level status of cycle times in the plant
+
+<br />
+<br />
+
+# Project 8: PowerBi Maintenance Dasboard
+
+![](/assets/img/PBI2.PNG)
+
+## Problem Statement
+Maintenance reporting was required to identify problematic areas and mitigate to improve efficiency and reduce job closure rate.
+
+## Task/Action
+Developed a comprehensive PowerBI dashboard to allow management to track maintenance data. The following was done:
+
+* Uploading data from different data sources
+* Transforming data (renaming columns, creating new calculated columns, deleting columns, change column data types etc.) and loading data
+* Creating relationships between different tables using primary and foreign keys
+* M Formulas for Powerquery Editing (transform phase)
+* Dax formulas for calculated columns (logical and aggregative functions)
+* Creating and formatting visualizations (line charts, bar charts, KPI's etc.)
+* Using slicers and filters to change views
+* Bookmarks and buttons for different views
+
+## Results 
+A comprehensive dashboard that could be used by managers to monitor the high level status of maintenance job card activity.
