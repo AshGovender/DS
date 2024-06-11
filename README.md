@@ -194,3 +194,27 @@ Below shows images showing critical screens in the WA:
 * Visual code editor
 * Balsamiq wireframes for wireframe diagrams
 * Visio for drawings, UML diagrams etc.
+
+<br />
+<br />
+
+# Project 7: PowerBi Cycle Time Report
+
+![](/assets/img/PBI1.PNG)
+
+## Problem Statement
+Remote monitoring and diagnosis of patients can help save lives, yet it is a growing field that needs improvements and advancements.
+
+## Task/Action
+Developed a comprehensive PowerBI dashboard to allow management to track data regarding cycle time. The following was done:
+
+* Uploading data from different data sources
+* Transforming data (renaming columns, creating new calculated columns, deleting columns, change column data types etc.) and loading data
+* Creating relationships between different tables using primary and foreign keys
+* Dax formulas for calculated columns (logical and aggregative functions)
+* Creating and formatting visualizations (line charts, bar charts, KPI's etc.)
+* Using slicers and filters to change views
+* Bookmarks and buttons for different views
+
+## Results 
+A comprehensive dashboard that could be used by managers to monitor the high level status of cycle times in the plant
