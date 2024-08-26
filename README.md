@@ -266,7 +266,7 @@ Step 1: Set-up AWS IoT Core
 * Create and activate a certificate for the thing
 * Activate and download Keys for use in simulator
 
-![](/assets/img/Thing.PNG)  
+![](/assets/img/Thing.png)  
 
 Step 2: Simulate an IoT device using Anaconda Python Jupiter Lab script
 * write a AWS SDK that simulates data
@@ -275,7 +275,7 @@ Step 2: Simulate an IoT device using Anaconda Python Jupiter Lab script
 * Using AWS MQT test client and subscribe to topic "SDK/test/Python" which was generated in python code
 * Test that output is displaying in AWS MQTT
 
-![](/assets/img/MQTT.PNG)  
+![](/assets/img/MQTT.png)  
 
 Step 3: Store data from SDK in AWS S3 
 * Create a bucket ("Iot-data bucket")
@@ -285,7 +285,7 @@ Step 3: Store data from SDK in AWS S3
 * Write SQL code to select data from the IoT thing created
 * Add an action to send data to AWS S3 bucket created
 
-![](/assets/img/S3.PNG)  
+![](/assets/img/S3.png)  
 
 Step 4: use Sagemaker to create a ML model
 * Create a notepad instance
