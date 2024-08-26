@@ -246,3 +246,58 @@ Developed a comprehensive PowerBI dashboard to allow management to track mainten
 
 ## Results 
 A comprehensive dashboard that could be used by managers to monitor the high level status of maintenance job card activity.
+
+<br />
+<br />
+
+# Project 8: AWS For Deployment of Sagemaker Model
+
+![](/assets/img/PBI2.PNG)
+
+## Problem Statement
+Data science models require a cloud interface to continuously collect and process data before consuming a model that is deployed. 
+
+## Task/Action
+In this project I utilized AWS services to create and deploy a NLP model. A free account in AWS for this process. The following AWS packages were used (AWS SDK, AWS MQTT, AWS S3, AWS IoT Core, AWS SageMaker). The following detailed steps were followed: 
+
+Step 1: Set-up AWS IoT Core
+
+* create an IoT Thing
+* Create and activate a certificate for the thing
+* Activate and download Keys for use in simulator
+
+Step 2: Simulate an IoT device using Anaconda Python Jupiter Lab script
+* write a AWS SDK that simulates data
+* Control output using a for loop to prevent excess data generation
+* Test code on Python
+* Using AWS MQT test client and subscribe to topic "SDK/test/Python" which was generated in python code
+* Test that output is displaying in AWS MQTT
+
+Step 3: Store data from SDK in AWS S3 
+* Create a bucket ("Iot-data bucket")
+* Choose region of operation
+* set permissions to role to allow IoT core to write data to the bucket
+* Configure IoT core to store data into S3 - using a new rule
+* Write SQL code to select data from the IoT thing created
+* Add an action to send data to AWS S3 bucket created
+
+Step 4: use Sagemaker to create a ML model
+* Create a notepad instance
+* Create a python Jupyter Lab notebook that contains NLP model code
+* Upload data from S3 into notebook instance
+* attach IM role to sagemaker
+* Save the model back to S3
+
+Step 5: Deploy model
+* Using sagemaker console create a new model
+* Specifiy S3 path to saved model
+* create inference file and link to it
+* create endpoint
+* Write code to deploy model
+* Automate process using AWS lambda (future work)
+* Store output from model in RD e.g. MSQL which can be utilzied by client for dashboard or process control input
+
+## Results 
+A NLP model deployed on AWS for consumption of data from a created simulator using AWS SDK. 
+
+
