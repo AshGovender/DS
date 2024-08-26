@@ -252,7 +252,7 @@ A comprehensive dashboard that could be used by managers to monitor the high lev
 
 # Project 8: AWS For Deployment of Sagemaker Model
 
-![](/assets/img/PBI2.PNG)
+![](/assets/img/AWS.PNG)
 
 ## Problem Statement
 Data science models require a cloud interface to continuously collect and process data before consuming a model that is deployed. 
@@ -266,12 +266,16 @@ Step 1: Set-up AWS IoT Core
 * Create and activate a certificate for the thing
 * Activate and download Keys for use in simulator
 
+![](/assets/img/Thing.PNG)  
+
 Step 2: Simulate an IoT device using Anaconda Python Jupiter Lab script
 * write a AWS SDK that simulates data
 * Control output using a for loop to prevent excess data generation
 * Test code on Python
 * Using AWS MQT test client and subscribe to topic "SDK/test/Python" which was generated in python code
 * Test that output is displaying in AWS MQTT
+
+![](/assets/img/MQTT.PNG)  
 
 Step 3: Store data from SDK in AWS S3 
 * Create a bucket ("Iot-data bucket")
@@ -280,6 +284,8 @@ Step 3: Store data from SDK in AWS S3
 * Configure IoT core to store data into S3 - using a new rule
 * Write SQL code to select data from the IoT thing created
 * Add an action to send data to AWS S3 bucket created
+
+![](/assets/img/S3.PNG)  
 
 Step 4: use Sagemaker to create a ML model
 * Create a notepad instance
