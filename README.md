@@ -6,8 +6,9 @@
 > * Lean Six Sigma Greenbelt
 
 # Courses
-> * [Data Science Methadology (Coursera - IBM)] - [View Certificate](https://www.coursera.org/account/accomplishments/certificate/NXGZBLFKJ8QR)
-> * Machine Learning With Python (Coursera - IBM) - [View Certificate](https://www.coursera.org/account/accomplishments/certificate/VZTZQQPXC4SB))
+> * Data Science Methadology (Coursera - IBM) - [View Certificate](https://www.coursera.org/account/accomplishments/certificate/NXGZBLFKJ8QR)
+> * Machine Learning With Python (Coursera - IBM) - [View Certificate](https://www.coursera.org/account/accomplishments/certificate/VZTZQQPXC4SB)
+> * Data Analysis With Python (Coursera - IBM) - [View Certificate](https://www.coursera.org/account/accomplishments/certificate/TXWTZ1Y5K6J8)
 
 <br />
 
