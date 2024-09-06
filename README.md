@@ -71,10 +71,10 @@ Feature addition, feature extraction, data merging, data visualization, data agg
 ![](/assets/img/Main.PNG)
 
 ## Problem Statement
-Company X had several customer complaints issues and wanted to develop a clustering model to cluster their different customer complaints group to get an indication of how to handle each group.
+Company X had several customer complaints issues and wanted to develop a clustering model to categorize their different customer complaints groups to get an indication of how to handle each group.
 
 ## Task/Action
-My task was to develop a clustering algorithm that looked at customer returns data and develop a clustering alogorithm to group the data accordingly to gain further insight into the customer complaints experienced. Since it was numerical data, A K-modes algorithm was utilized to develop the clusters. The algorithm starts by picking some random points which will be considered the first cluster centers (centroids). In other words, the clusters will be defined based on the number of matching categories between data points that means using the highest frequency to form the clusters. As in more categories two points overlap, the higher their probability to belong to the same cluster. Below indicates the process:
+My task was to develop a clustering algorithm that looked at customer returns data and develop a clustering alogorithm to group the data accordingly. This could then be used to gain further insight into the customer complaints experienced. Since it was categorical data, the K-modes algorithm was utilized to develop the clusters. The algorithm starts by picking some random points which will be considered the first cluster centers (centroids). In other words, the clusters will be defined based on the number of matching categories between data points that means using the highest frequency to form the clusters. As more points overlap, the higher their probability to belong to the same cluster. Below indicates the process:
 
 ![](/assets/img/Picture1.png)
 
@@ -82,20 +82,21 @@ Drawback of K-Modes is that we need to input the final number of clusters by whi
 To find the optimum number of splits, the Elbow method with the cost function is used. A cost function to determine how scattered the points are from the cluster needs to be established. The lower the cost, the nearer the points in the cluster. With K-Means the Euclidean distance is used whereas in K-Modes, it is replaced by the Hamming distance  
 ∑_(𝑖=1)^𝑛▒∑_(𝑖=1)^𝑘▒𝑑_𝑥𝑐 
 
-By plotting the cost function against the number of clusters, an elbow should be found. During the clusters number growth, there is a point where the drop starts to change smoothly, and the increase of k does not give significant improvements. The number where the cost begins to slightly decrease is the number that best fits data-set sub-grouping. For the given project, the curve levelled off at around a K value of 7 which indicated optimum number of clusters.
+By plotting the cost function against the number of clusters, an elbow should be found. During the clusters number growth, there is a point where the drop starts to change smoothly, and the increase of k does not give significant improvements. The number where the cost begins to slightly decrease is the number that best fits data-set sub-grouping. For the given project, the curve levelled off at around a K value of 4 which indicated optimum number of clusters.
 
-Exploratory data analysis was done on the individual dataframes and then joined together and filtered based on necessary columns to create one dataset and the model was fitted with the data using a K value of 7. Other intial model parameters were selected based on best practice.
+Exploratory data analysis was done on the individual dataframes and then joined together and filtered based on necessary columns to create one dataset and the model was fitted with the data using a K value of 4. Other intial model parameters were selected based on best practice.
 
 ## Data sources
 Utilized customer complaints data from the call centre, production planning and MasterSKU data
 
 ## Results 
 The results were as follows :
-> * 3 clusters were developed
+> * 4 clusters were developed
 > * Each cluster had a specific sales category and a major bulk purchaser attributed to it
 > * Each cluster indicated product specific issues and problematic customers to be addressed that were frequently returning items for no real reason and as a result of their poor forecasting
-> * The data also pointed to sales reps that were not effectively controlling the customer complaints returns processes i.e. they were approving all returns without a proper investigation
+> * The data also pointed to sales reps that were not effectively controlling the customer complaints returns processes i.e. they were approving all returns without a proper investigation/ due diligence
 > * The most problematic customers in terms of returns were also identified
+> * Issues in the call centre ordering process was identified - a mistake proofing process was identified as future work to prevent errors during the creation of orders by customers
 
 ## Python libraries
 Matplotlib, Pandas, Numpy, itertools, K-modes algorithm
