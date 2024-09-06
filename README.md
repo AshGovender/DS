@@ -137,16 +137,16 @@ Text preparation (conversion to lower case, removing stop words, removing whites
 ![](/assets/img/ML.PNG)
 
 ## Problem Statement
-Stroke is a serious condition that affects millions of people in the world. Although its exact causes can't be pinned down to specific issues, there are potential physiological and lifestyle characteristics that could put a person at greater risk of having it. However many people are not aware of these factors and how they can contribute to the likelihood of getting cancer.
+Stroke is a serious condition that affects millions of people in the world. Although its exact causes can't be pinned down to specific issues, there are potential physiological and lifestyle characteristics that could put a person at greater risk of having it. However many people are not aware of these factors and how they can contribute to the likelihood of getting stroke.
 
 ## Task/Action
-As part of my Masters in biomechatronics, I developed a ML model that was initially hosted on MS Azure and consumed by a Mobile & web application developed. The model was re-produced on python and is basically looked at classifying whether a person is likely to get a stroke based on various different factors. The data was cleaned and exploratory data analysis was used to identify patterns in the features and in relation to the target variable. The categorical data was one-hot-encoded after removing outliers and normalizing the dataset. A smote analysis was also used to rectify the imbalanced dataset. A train, test and validation data split was done. The various models were tuned using GridsearchCV and the k-folds algorithm. 
+As part of my Masters in biomechatronics, I developed a ML model that was hosted on MS Azure and consumed by a Mobile & web application developed. The model was re-produced on python and is basically looks at classifying whether a person is likely to get a stroke based on various different factors. The data was cleaned and exploratory data analysis was used to identify patterns in the features and in relation to the target variable. The categorical data was one-hot-encoded after removing outliers and normalizing the dataset. A smote analysis was also used to rectify the imbalanced dataset. A train, test and validation data split was done using stratified sampling due to the imbalanced data set. The various models were tuned using GridsearchCV and the Stratifiedkfolds cross validation technique. Tuning was done using the validation set and a test for overfitting and underfitting was also done. Evaluation on the final model was done using classification tables and correlation matrices. 
 
 ## Data Sources
 Online medical health repository
 
 ## Results 
-The classification scoring was done and showed that the model was good at predicting negative cases however data imbalance in the test set showed a weak model in predicting the postive class. A learning curve showed that more data was required to improve the model with more positive case predictions required to strenghthen the models ability to predict the positive stroke class.
+The classification scoring was done and showed that the model was good at predicting negative cases however data imbalance in the test set showed a weak model in predicting the postive class. Data is required to improve the model with more positive case predictions required to strenghthen the models ability to predict the positive stroke class.
 
 ## Python libraries
 Sklearn( DecisionTreeClassifier,metrics, naive_bayes,svm,model_selection,feature_extraction.text), matplotlib, seaborne, Pandas, Numpy etc.
@@ -169,7 +169,7 @@ As part of my Masters in biomechatronics, I developed an smart diagnostic system
 
 > * A wireless body access network was developed using an Arduino Nano microcontroller with connections to several sensors measuring phsyiological properties like temperature, pulse rate and EMG
 > * A mobile device served as the middleware layer
-> * Microsoft azure served as the cloud layer with connections to SQL and noSQL databases
+> * Microsoft azure served as the cloud layer with connections to SQL and noSQL databases (Google Firebase)
 > * A mobile and web application was developed as the application layers with 2 interfaces for the patient and doctors utilizing the applications
 > * A fuzzy logic model was developed and hosted on the MA to guage the patients general health
 > * A ML model was developed on MS Azure and consumed via the mobile application
@@ -258,7 +258,7 @@ A comprehensive dashboard that could be used by managers to monitor the high lev
 Data science models require a cloud interface to continuously collect and process data before consuming a model that is deployed. 
 
 ## Task/Action
-In this project I utilized AWS services to create and deploy a NLP model. A free account in AWS for this process. The following AWS packages were used (AWS SDK, AWS MQTT, AWS S3, AWS IoT Core, AWS SageMaker). The following detailed steps were followed: 
+In this project I utilized AWS services to create and deploy a NLP model. A free account in AWS was utilized for this process. The following AWS packages were used (AWS SDK, AWS MQTT, AWS S3, AWS IoT Core, AWS SageMaker). The following detailed steps were followed: 
 
 Step 1: Set-up AWS IoT Core
 
