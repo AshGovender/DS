@@ -310,8 +310,7 @@ A NLP model deployed on AWS for consumption of data from a created simulator usi
 <br />
 
 # Project 9: Regression Model For House Pricing Prediction
-![k-means-clustering-algorithm-in-machine-learning](https://github.com/user-attachments/assets/6e65492c-a7c6-42ec-b683-40659b3869e3)
-
+![image](https://github.com/user-attachments/assets/ba612a3e-baa0-4575-8f04-11a9ef645990)
 
 ## Problem Statement
 I believe data science extends beyond workplace use. So in this project I decided to pursue the use of data science to help me understand the property market better. I have recently become very interested in understanding the possibility of rental income and purchasing my own home. So in this problem I will be attempting to fit a model that predicts house pricing based on various characteristics- with the hopes that it can help me make good investments in the area. 
@@ -320,7 +319,7 @@ I believe data science extends beyond workplace use. So in this project I decide
 To develop regression model to predict house pricing using various numerical features. The following process was followed:
 	Import the data 
 	Check the datatype, shape, info and description etc.
-	Exploratory data analysis (univariate: box plots, histograms), bivariate analysis (scatter plots etc.)
+	Exploratory data analysis (univariate: box plots, histograms)
 	Check for null values (remove or imputation)
 	Split data into train, test and validation set
 	Remove outliers from numerical features (IQR method used)
@@ -342,10 +341,44 @@ Kaggle data repository
 The regression model was done and showed that ridge regression performed the best.
 
 ## Python libraries
-Sklearn( DecisionTreeClassifier,metrics, naive_bayes,svm,model_selection,feature_extraction.text), matplotlib, seaborne, Pandas, Numpy etc.
+Sklearn, matplotlib, seaborne, Pandas, Numpy etc.
 
 ## Data science Methods
 Text cleaning, SMOTE analysis, training and test split, model tuning, model fitting, cross-fitting(k-folds), model evaluation, exploratory data analysis
+
+<br />
+<br />
+
+# Project 10: K_Means Clustering - Customer Segmentation
+![k-means-clustering-algorithm-in-machine-learning](https://github.com/user-attachments/assets/6e65492c-a7c6-42ec-b683-40659b3869e3)
+
+
+## Problem Statement
+To develop a clustering model for customer segmentation
+
+## Task/Action
+I developed a K-mean model for customer segmentation. The following process was followed:
+
+	Check the datatype, shape, info and description etc.
+	Exploratory data analysis (histograms, boxplots etc.)
+	Data Preparation: Import, clean, remove outliers and scale the data.
+	Initial Runs: Run K-means for a range of cluster numbers (e.g., 2-10).
+	Elbow Method: Plot inertia vs. the number of clusters and choose the elbow point.
+	Final Model: Fit the model with the optimal number of clusters.
+	Evaluation: Use metrics like silhouette score and cluster visualizations to evaluate the results.
+	Interpretation: Analyze and interpret each cluster.
+
+## Data Sources
+IBM data repository
+
+## Results 
+The K-modes model was developed and inertia minimized indicating tight clusters
+
+## Python libraries
+Sklearn, matplotlib, seaborne, Pandas, Numpy etc.
+
+## Data science Methods
+Text cleaning, model tuning, model fitting, model evaluation, exploratory data analysis
 
 <br />
 <br />
