@@ -306,4 +306,46 @@ Step 5: Deploy model
 ## Results 
 A NLP model deployed on AWS for consumption of data from a created simulator using AWS SDK. 
 
+<br />
+<br />
 
+# Project 9: Regression Model For House Pricing Prediction
+![k-means-clustering-algorithm-in-machine-learning](https://github.com/user-attachments/assets/6e65492c-a7c6-42ec-b683-40659b3869e3)
+
+
+## Problem Statement
+I believe data science extends beyond workplace use. So in this project I decided to pursue the use of data science to help me understand the property market better. I have recently become very interested in understanding the possibility of rental income and purchasing my own home. So in this problem I will be attempting to fit a model that predicts house pricing based on various characteristics- with the hopes that it can help me make good investments in the area. 
+
+## Task/Action
+To develop regression model to predict house pricing using various numerical features. The following process was followed:
+	Import the data 
+	Check the datatype, shape, info and description etc.
+	Exploratory data analysis (univariate: box plots, histograms), bivariate analysis (scatter plots etc.)
+	Check for null values (remove or imputation)
+	Split data into train, test and validation set
+	Remove outliers from numerical features (IQR method used)
+	Check mutual information and correlation matrix to perform feature selection using filtering method
+	Normalize numerical features (continuous)
+	No balancing required for these problems because continuous Y
+	PCA analysis if correlation matrix shows mulit-collinearity between features
+	Fit with the train set and tune using validation set – use GridsearchCV and cross validation technique like K-Folds (evaluation metrics: MAE, MSE, R-square and RMSE)
+	Check for overfitting and underfitting using train set on optimized model (evaluation metrics: MAE, MSE, R-square and RMSE)
+	Check residual plots (normalization of residuals and Homoscedasticity – random variation in points with the number of fits)
+	Choose best model 
+	Use test set to make predictions on final model (evaluation metrics: MAE, MSE, R-square and RMSE)
+
+
+## Data Sources
+Kaggle data repository
+
+## Results 
+The regression model was done and showed that ridge regression performed the best.
+
+## Python libraries
+Sklearn( DecisionTreeClassifier,metrics, naive_bayes,svm,model_selection,feature_extraction.text), matplotlib, seaborne, Pandas, Numpy etc.
+
+## Data science Methods
+Text cleaning, SMOTE analysis, training and test split, model tuning, model fitting, cross-fitting(k-folds), model evaluation, exploratory data analysis
+
+<br />
+<br />
