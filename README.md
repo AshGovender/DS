@@ -309,7 +309,7 @@ A NLP model deployed on AWS for consumption of data from a created simulator usi
 <br />
 <br />
 
-# Project 9: Regression Model For House Pricing Prediction
+# Project 9: Regression Model For House Pricing Prediction (https://github.com/AshGovender/Regression-HousePrediction)
 ![image](https://github.com/user-attachments/assets/ba612a3e-baa0-4575-8f04-11a9ef645990)
 
 ## Problem Statement
@@ -349,7 +349,7 @@ Text cleaning, SMOTE analysis, training and test split, model tuning, model fitt
 <br />
 <br />
 
-# Project 10: K_Means Clustering - Customer Segmentation
+# Project 10: K_Means Clustering - Customer Segmentation (https://github.com/AshGovender/K_means)
 ![k-means-clustering-algorithm-in-machine-learning](https://github.com/user-attachments/assets/6e65492c-a7c6-42ec-b683-40659b3869e3)
 
 
