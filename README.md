@@ -317,21 +317,21 @@ I believe data science extends beyond workplace use. So in this project I decide
 
 ## Task/Action
 To develop regression model to predict house pricing using various numerical features. The following process was followed:
-	Import the data 
-	Check the datatype, shape, info and description etc.
-	Exploratory data analysis (univariate: box plots, histograms)
-	Check for null values (remove or imputation)
-	Split data into train, test and validation set
-	Remove outliers from numerical features (IQR method used)
-	Check mutual information and correlation matrix to perform feature selection using filtering method
-	Normalize numerical features (continuous)
-	No balancing required for these problems because continuous Y
-	PCA analysis if correlation matrix shows mulit-collinearity between features
-	Fit with the train set and tune using validation set – use GridsearchCV and cross validation technique like K-Folds (evaluation metrics: MAE, MSE, R-square and RMSE)
-	Check for overfitting and underfitting using train set on optimized model (evaluation metrics: MAE, MSE, R-square and RMSE)
-	Check residual plots (normalization of residuals and Homoscedasticity – random variation in points with the number of fits)
-	Choose best model 
-	Use test set to make predictions on final model (evaluation metrics: MAE, MSE, R-square and RMSE)
+> *	Import the data 
+> *	Check the datatype, shape, info and description etc.
+> *	Exploratory data analysis (univariate: box plots, histograms)
+> *	Check for null values (remove or imputation)
+> *	Split data into train, test and validation set
+> *	Remove outliers from numerical features (IQR method used)
+> *	Check mutual information and correlation matrix to perform feature selection using filtering method
+> *	Normalize numerical features (continuous)
+> *	No balancing required for these problems because continuous Y
+> *	PCA analysis if correlation matrix shows mulit-collinearity between features
+> *	Fit with the train set and tune using validation set – use GridsearchCV and cross validation technique like K-Folds (evaluation metrics: MAE, MSE, R-square and RMSE)
+> *	Check for overfitting and underfitting using train set on optimized model (evaluation metrics: MAE, MSE, R-square and RMSE)
+> *	Check residual plots (normalization of residuals and Homoscedasticity – random variation in points with the number of fits)
+> *	Choose best model 
+> *	Use test set to make predictions on final model (evaluation metrics: MAE, MSE, R-square and RMSE)
 
 
 ## Data Sources
@@ -359,14 +359,14 @@ To develop a clustering model for customer segmentation
 ## Task/Action
 I developed a K-mean model for customer segmentation. The following process was followed:
 
-	Check the datatype, shape, info and description etc.
-	Exploratory data analysis (histograms, boxplots etc.)
-	Data Preparation: Import, clean, remove outliers and scale the data.
-	Initial Runs: Run K-means for a range of cluster numbers (e.g., 2-10).
-	Elbow Method: Plot inertia vs. the number of clusters and choose the elbow point.
-	Final Model: Fit the model with the optimal number of clusters.
-	Evaluation: Use metrics like silhouette score and cluster visualizations to evaluate the results.
-	Interpretation: Analyze and interpret each cluster.
+> *	Check the datatype, shape, info and description etc.
+> *	Exploratory data analysis (histograms, boxplots etc.)
+> *	Data Preparation: Import, clean, remove outliers and scale the data.
+> *	Initial Runs: Run K-means for a range of cluster numbers (e.g., 2-10).
+> *	Elbow Method: Plot inertia vs. the number of clusters and choose the elbow point.
+> *	Final Model: Fit the model with the optimal number of clusters.
+> *	Evaluation: Use metrics like silhouette score and cluster visualizations to evaluate the results.
+> *	Interpretation: Analyze and interpret each cluster.
 
 ## Data Sources
 IBM data repository
