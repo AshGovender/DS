@@ -385,6 +385,8 @@ Text cleaning, model tuning, model fitting, model evaluation, exploratory data a
 <br />
 
 # Project 11: Development of a unified view and analysis for a foundry
+<img width="604" alt="Foundry" src="https://github.com/user-attachments/assets/042314e2-b025-4c82-a83f-eeb12f539762" />
+
 
 ## Problem Statement
 For any manufacturing plant, there are different processes involved in producing a single part.This can be a pot, an engine block, a wheel, etc. These processes happen at different times and need to be aligned.Building a unified view aims to bring all these processes together to track the production of a single part - from start to end, as if all processes happened simultaneously. Some data will need preprocessing to extract valuable features. For this exercise, a certain foundry was producing some automotive parts and they wanted to know the casting temperature, silicon content and furnace pressure relevant to each part, for a specific period of production.
@@ -395,13 +397,15 @@ This data was collected in the following dataframes:
 > temperature_data_df: contains the casting Temperature
 > silicon_data_df: contains the furnace_silicon_content
 
+The following was critical considerations to be aware of while generating the unified view:
+> Parts were produced per batch of the same product type. A part was produced every 30 minutes and had a unique part identifier. Batches of the same product type are identified with the product type name which is logged on the control system when the type changes and will apply from the next part.
+> During casting, the pressure sensor logs the exerted pressure every 10 seconds (the pressure increases during this time), until the casting is completed. The result is a pressure cycle that lasts for ~30 minutes and resets when casting is completed. The maximum pressure reached for each cycle and the time elapsed (in minutes) from when to production cycle starts to the moment this peak is reached need to be extracted.
+> The casting temperature was recorded at the beginning of the casting cycle (in the first 10 minutes)
+> Bulk quantities of metal were melted in the furnace, and as a result, the chemistry remained relatively similar for a few hours of production, and was therefore recorded less frequently. The silicon in particular was recorded every ~4 hours, and needed to apply for the next 4 hours of production
+> Date conversions were required
+
 ## Task/Action
 The following was done:
-
-The objective is to build a unified view that will extract all relevant information for each part produced. 
-You will have to build a dataframe where each row represents a single part and each column represents the relevant
-data from each process that needs to be extracted and aligned.
-
 > *	Built a unified view that extracted all relevant information for each part produced. A final dataframe was created where each row represented a single part and each column represented the relevant data fro each process that needed to to be extracted and aligned
 > *	Exploratory data analysis (histograms, boxplots etc.)
 > *	Data Preparation: Import, clean, remove outliers and scale the data.
