@@ -398,11 +398,11 @@ This data was collected in the following dataframes:
 > silicon_data_df: contains the furnace_silicon_content
 
 The following was critical considerations to be aware of while generating the unified view:
-> Parts were produced per batch of the same product type. A part was produced every 30 minutes and had a unique part identifier. Batches of the same product type are identified with the product type name which is logged on the control system when the type changes and will apply from the next part.
-> During casting, the pressure sensor logs the exerted pressure every 10 seconds (the pressure increases during this time), until the casting is completed. The result is a pressure cycle that lasts for ~30 minutes and resets when casting is completed. The maximum pressure reached for each cycle and the time elapsed (in minutes) from when to production cycle starts to the moment this peak is reached need to be extracted.
-> The casting temperature was recorded at the beginning of the casting cycle (in the first 10 minutes)
-> Bulk quantities of metal were melted in the furnace, and as a result, the chemistry remained relatively similar for a few hours of production, and was therefore recorded less frequently. The silicon in particular was recorded every ~4 hours, and needed to apply for the next 4 hours of production
-> Date conversions were required
+> * Parts were produced per batch of the same product type. A part was produced every 30 minutes and had a unique part identifier. Batches of the same product type are identified with the product type name which is logged on the control system when the type changes and will apply from the next part.
+> * During casting, the pressure sensor logs the exerted pressure every 10 seconds (the pressure increases during this time), until the casting is completed. The result is a pressure cycle that lasts for ~30 minutes and resets when casting is completed. The maximum pressure reached for each cycle and the time elapsed (in minutes) from when to production cycle starts to the moment this peak is reached need to be extracted.
+> * The casting temperature was recorded at the beginning of the casting cycle (in the first 10 minutes)
+> * Bulk quantities of metal were melted in the furnace, and as a result, the chemistry remained relatively similar for a few hours of production, and was therefore recorded less frequently. The silicon in particular was recorded every ~4 hours, and needed to apply for the next 4 hours of production
+> * Date conversions were required
 
 ## Task/Action
 The following was done:
