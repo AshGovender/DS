@@ -383,3 +383,42 @@ Text cleaning, model tuning, model fitting, model evaluation, exploratory data a
 
 <br />
 <br />
+
+# Project 11: Development of a unified view and analysis for a foundry
+
+## Problem Statement
+For any manufacturing plant, there are different processes involved in producing a single part.This can be a pot, an engine block, a wheel, etc. These processes happen at different times and need to be aligned.Building a unified view aims to bring all these processes together to track the production of a single part - from start to end, as if all processes happened simultaneously. Some data will need preprocessing to extract valuable features. For this exercise, a certain foundry was producing some automotive parts and they wanted to know the casting temperature, silicon content and furnace pressure relevant to each part, for a specific period of production.
+
+This data was collected in the following dataframes:
+> production_data_df: contains the unique_part_identifer, cycle_start_timestamp and PART_TYPE
+> pressure_data_df: contains the pressure profile recorded by the pressure_sensor
+> temperature_data_df: contains the casting Temperature
+> silicon_data_df: contains the furnace_silicon_content
+
+## Task/Action
+The following was done:
+
+The objective is to build a unified view that will extract all relevant information for each part produced. 
+You will have to build a dataframe where each row represents a single part and each column represents the relevant
+data from each process that needs to be extracted and aligned.
+
+> *	Built a unified view that extracted all relevant information for each part produced. A final dataframe was created where each row represented a single part and each column represented the relevant data fro each process that needed to to be extracted and aligned
+> *	Exploratory data analysis (histograms, boxplots etc.)
+> *	Data Preparation: Import, clean, remove outliers and scale the data.
+> *	Critical analysis of issues and trends
+> *	Capability analysis for foundry
+
+## Data Sources
+Supplied by plant
+
+## Results 
+Unified view was correctly generated taking into consideration merging of timeframes. Data showed issues with silicon usage which resulted in certain parts types performing better than others. 
+
+## Python libraries
+Sklearn, matplotlib, seaborne, Pandas, Numpy etc.
+
+## Data science Methods
+Text cleaning, exploratory data analysis, hypothesis testing, statistical tests
+
+<br />
+<br />
