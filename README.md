@@ -9,7 +9,8 @@
 > * Data Science Methadology (Coursera - IBM) - [View Certificate](https://www.coursera.org/account/accomplishments/certificate/NXGZBLFKJ8QR)
 > * Machine Learning With Python (Coursera - IBM) - [View Certificate](https://www.coursera.org/account/accomplishments/certificate/VZTZQQPXC4SB)
 > * Data Analysis With Python (Coursera - IBM) - [View Certificate](https://www.coursera.org/account/accomplishments/certificate/TXWTZ1Y5K6J8)
-> * What is data Science (Coursera - IBM) - [View Certificate](https://www.coursera.org/account/accomplishments/certificate/53RSG56RICZF))
+> * What is data Science (Coursera - IBM) - [View Certificate](https://www.coursera.org/account/accomplishments/certificate/53RSG56RICZF)
+> * Python for Data Science, AI and Development (Coursera - IBM) - [View Certificate](https://www.coursera.org/account/accomplishments/certificate/PEMYCPAA123A)
 
 <br />
 
